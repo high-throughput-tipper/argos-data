@@ -1,4 +1,4 @@
-# Argos Dataset Generation Repostiory
+# Argos Dataset Repostiory
 
 This dataset is used to generate the transcriptomics dataset used in Argos `Data Exploration`, `Time Series Inspection`, and `recipe calculator` modules. The scRNA-seq data is processed by quality control and Normalization.
 

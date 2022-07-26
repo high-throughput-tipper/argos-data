@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  pc12:
+    build: .
+    image: pc12
+    ports:
+      - "8787:8787"
+    environment:
+      - ROOT=TRUE
+      - PASSWORD=pwd
+      - DISABLE_AUTH=true
+    volumes:
+      - .:/home/rstudio
